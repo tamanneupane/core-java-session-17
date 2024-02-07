@@ -1,0 +1,10 @@
+Git
+
+=> Git is command line tool which help us in version control.
+
+Why to use git?
+1. Sharing the code will be easy
+2. Collaborative coding will be easy
+3. Disaster recovery will be easy
+4. Reverting back to certain checkpoint will be easy
+5. CI/CD Pipeline is made easy with git

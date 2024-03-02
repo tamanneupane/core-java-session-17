@@ -1,5 +1,7 @@
 package objectbasic.himalayantimes;
 
+import java.util.Objects;
+
 public class Category {
 
     //States
@@ -21,18 +23,43 @@ public class Category {
     private String createdAt;
     private String updatedAt;
 
+    public Category(){}
 
+    // Parameterized Constructor
+    public Category(int categoryId, String categoryName){
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
+    }
+
+    public Category(int categoryId, String categoryName, boolean isDisabled, int order, boolean isDeleted) {
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
+        this.isDisabled = isDisabled;
+        this.order = order;
+        this.isDeleted = isDeleted;
+    }
+
+    public Category(int categoryId, String categoryName, boolean isDisabled, int order, boolean isDeleted, String createdAt, String updatedAt) {
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
+        this.isDisabled = isDisabled;
+        this.order = order;
+        this.isDeleted = isDeleted;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
 
     public int getCategoryId() {
         return categoryId;
     }
 
     public void setCategoryId(int categoryId) {
+        // this => kathmandu
         this.categoryId = categoryId;
     }
 
     public String getCategoryName() {
-        return categoryName;
+        return this.categoryName;
     }
 
     public void setCategoryName(String categoryName) {
@@ -64,7 +91,7 @@ public class Category {
     }
 
     public String getCreatedAt() {
-        return createdAt;
+        return Objects.requireNonNullElse(createdAt, "2024-01-01");
     }
 
     public void setCreatedAt(String createdAt) {

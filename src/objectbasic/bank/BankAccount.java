@@ -1,6 +1,6 @@
 package objectbasic.bank;
 
-public class BankAccount {
+ public class BankAccount {
 
     // 27.67385304712147, 85.36163799574742
 
@@ -36,6 +36,12 @@ public class BankAccount {
     private double accountBalance;
     private  boolean isLocked;
     private String ssn;
+//    private String country;
+//    private String state;
+//    private  String city;
+//    private String streetAddress;
+
+     private Address address;
 
     public String getAccountNumber() {
         return accountNumber;
@@ -133,7 +139,7 @@ public class BankAccount {
         this.accountBalance = this.accountBalance + amount;
     }
 
-    public void  transfer(){
+    void transfer(){
 
     }
 

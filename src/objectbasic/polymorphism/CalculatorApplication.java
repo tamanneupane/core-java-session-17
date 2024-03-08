@@ -30,23 +30,25 @@ public class CalculatorApplication {
         e = 2.0;
         f = 3.0;
 
-        add(e,f);
+        add((float) e, (float) f);
     }
 
     // Function Overloading
 
-    public static void add(int a, int b){
-        int sum = a + b;
-        System.out.println("Sum of " + a + " and " + b + " : " + sum);
-    }
+//    public static void add(double a, double b){
+//        double sum = a + b;
+//        System.out.println("Sum of " + a + " and " + b + " : " + sum);
+//    }
 
+//    public static void add(int a, int b){
+//        int sum = a + b;
+//        System.out.println("Sum of " + a + " and " + b + " : " + sum);
+//    }
+//
     public static void add(float a, float b){
         float sum = a + b;
         System.out.println("Sum of " + a + " and " + b + " : " + sum);
     }
 
-    public static void add(double a, double b){
-        double sum = a + b;
-        System.out.println("Sum of " + a + " and " + b + " : " + sum);
-    }
+
 }

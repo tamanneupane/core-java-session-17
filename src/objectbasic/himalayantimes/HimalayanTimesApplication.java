@@ -1,17 +1,17 @@
 package objectbasic.himalayantimes;
 
-import objectbasic.himalayantimes.Category;
+
+
+
 
 import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Objects;
+
 
 public class HimalayanTimesApplication {
 
 
     public static void main(String[] args) {
+
 
         Category kathmandu = new Category();
         kathmandu.setCategoryId(1);

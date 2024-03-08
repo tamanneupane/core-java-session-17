@@ -6,6 +6,10 @@ public class Door {
 
     private String name;
 
+    public Door(){
+        this.name = "";
+    }
+
     public Door(String name) {
         this.name = name;
     }

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"objectbasic.himalayantimes","l":"Category"},{"p":"objectbasic.himalayantimes","l":"HimalayanTimesApplication"},{"p":"objectbasic.himalayantimes","l":"ImmutableCategory"},{"p":"objectbasic.himalayantimes","l":"Post"}]
